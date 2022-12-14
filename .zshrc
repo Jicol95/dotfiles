@@ -41,12 +41,16 @@ alias vault="~/github/pleo-io/pleo/bin/vault-rds-credentials.sh"
 
 
 # java aliases
-alias java8='export JAVA_HOME=$JAVA_8_HOME'  
-alias java11='export JAVA_HOME=$JAVA_11_HOME'
-alias java16='export JAVA_HOME=$JAVA_16_HOME'
-alias java17='export JAVA_HOME=$JAVA_17_HOME'
+alias java8="export JAVA_HOME=$JAVA_8_HOME"  
+alias java11="export JAVA_HOME=$JAVA_11_HOME"
+alias java16="export JAVA_HOME=$JAVA_16_HOME"
+alias java17="export JAVA_HOME=$JAVA_17_HOME"
 
 java17 # default java17
+
+# colima - docker
+alias colup="colima start --runtime docker --cpu 2 --memory 4 --disk 20"
+alias coldwn="colima stop"
 
 # other alisases
 alias zshrc="nano ~/.zshrc"
